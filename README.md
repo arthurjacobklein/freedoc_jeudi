@@ -16,6 +16,10 @@ $ rails db:migrate
 
 # Create seed
 $ rails db:seed
+
+OPTIONAL
+# If you have a bug when you launch your console, type this before `rails console`
+$ spring stop
 ```
 ------
 Made with ❤ in Paris\
