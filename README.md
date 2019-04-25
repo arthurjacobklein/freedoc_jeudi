@@ -1,24 +1,22 @@
-# README
+# FreeDoc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How to install?
+```
+# Clone the project
+$ git clone https://github.com/arthurjacobklein/freedoc_jeudi.git
 
-Things you may want to cover:
+# CD into the folder
+$ cd freedoc_jeudi
 
-* Ruby version
+# Install gems
+$ bundle install
 
-* System dependencies
+# Launch the migrations
+$ rails db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Create seed
+$ rails db:seed
+```
+------
+Made with ❤ in Paris\
+By [Romain Cabirol](https://github.com/forkhembo/) and [Arthur Klein](https://github.com/arthurjacobklein)
